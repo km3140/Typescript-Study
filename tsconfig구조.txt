@@ -19,8 +19,3 @@
     //    하지만 이 설정으로 자주 생기는 오류가 있음
   }
 }
-
-npm run tsc
-
-현재 프로젝트에서는 package.json에 tsc의 alias로 build를 주었음
-=> npm run build

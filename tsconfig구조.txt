@@ -9,7 +9,14 @@
     "lib" : ["ES6","DOM"]
     // 👆 해당 ts파일이 실행될 환경을 명시?
     //    DOM은 브라우저에서 실행되는 코드라는 것을 뜻함 -> ts에서 브라우저api의 자동완성 기능을 제공함
-    //    js의 기본 type definition은 ts가 갖고있다
+    //    d.ts에 타입이 명시되어 있기에 자동완성이 가능
+    //    js의 기본 type definition이 담긴 d.ts는 ts가 갖고있다
+    "strict": true,
+    // 👆 더 강하게 보호해줌
+    "allowJs": true
+    // 👆 ts 파일에서 js를 허용함
+    //    JSDoc으로 JS에 코멘트만 달아서 TS의 효과를 조금 낼 수 있음
+    //    하지만 이 설정으로 자주 생기는 오류가 있음
   }
 }
 

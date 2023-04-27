@@ -3,6 +3,8 @@
   "compilerOptions": {
     "outDir": "build",
     "target": "ES6",
-    "lib": ["ES6"]
+    "lib": ["ES6"],
+    "strict": true,
+    "esModuleInterop": true
   }
 }
